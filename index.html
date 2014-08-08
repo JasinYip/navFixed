@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	
 	<script src="jquery-1.11.1.min.js"></script>
-	<script src="navFixed.js"></script>
+	<script src="navFixed-1.0.min.js"></script>
 
 <script>
 	$(function(){
@@ -21,7 +21,11 @@
 			$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top-52}, 600);
 			event.preventDefault();
 		});
+
+		$("#nav").navFixed();
 	});
+
+	
 
 	$(window).resize(function(){ 
 		$("#firstPage").css("height", $(window).height());
@@ -38,7 +42,7 @@
 
 	<section id="nav">
 		<header class="container">
-			<a class="fl" href="firstPage" id="logo" hideFocus="true">Jasin Yip</a>
+			<a class="fl" href="#firstPage" id="logo" hideFocus="true">Jasin Yip</a>
 			<nav class="fr">
 				<a href="#block-2" id="nav-block-2" hideFocus="true">block-2</a>
 				<a href="#block-3" id="nav-block-3" hideFocus="true">block-3</a>
@@ -48,12 +52,20 @@
 		</header>
 	</section>
 
-	<section id="block-2"></section>
+	<section id="block-2">
+		<p>block-2</p>
+	</section>
 
-	<section id="block-3"></section>
+	<section id="block-3">
+		<p>block-3</p>
+	</section>
 
-	<section id="block-4"></section>
+	<section id="block-4">
+		<p>block-4</p>
+	</section>
 
-	<section id="block-5"></section>
+	<section id="block-5">
+		<p>block-5</p>
+	</section>
 </body>
 </html>
