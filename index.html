@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	
 	<script src="jquery-1.11.1.min.js"></script>
-	<script src="navFixed-1.0.min.js"></script>
+	<script src="navFixed-1.0.1.js"></script>
 
 <script>
 	$(function(){
@@ -18,25 +18,24 @@
 		//平滑滚动导航
 		$('#fstPage-down a, nav a, #logo').bind('click',function(event){
 			var $anchor = $(this);
-			$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top-52}, 600);
+			$('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top-$("#nav").outerHeight()}, 600);
 			event.preventDefault();
 		});
 
 		$("#nav").navFixed();
 	});
 
-	
-
 	$(window).resize(function(){ 
 		$("#firstPage").css("height", $(window).height());
 		$('#firstPage>p').css("top", ($(window).height() - $('#firstPage>p').outerHeight())/2 );
 	}); 
+
 </script>
 
 </head>
 <body>
 	<section id="firstPage">
-		<p>Hello World</p>
+		<p>navFixed.js</p>
 		<div id="fstPage-down"><a href="#block-2" hideFocus="true"></a></div>
 	</section>
 
