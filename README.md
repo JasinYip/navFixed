@@ -1,14 +1,14 @@
 navFixed
 ========
 
-这是一款可以滚动将导航条固定在顶部的jQuery插件。
-
+这是一款超轻量级的 jQuery 插件。
+它可以让原本不是在顶部的导航条，在滚动到它的位置时固定在顶部。
 
 
 开发背景
 ----
 
-由于开发[个人简介][1]这个网页，需要用到导航条滚动时固定在顶部（原来并非在顶部）的效果，曾经试过 jQuery.pin 以及 stickUp
+由于开发[个人简介](http://jasinyip.com/resume)这个网页，需要用到导航条滚动时固定在顶部（原来并非在顶部）的效果，曾经试过 jQuery.pin 以及 stickUp
 但都有些小BUG，于是就决定自己开发这款插件。
 
 
@@ -22,7 +22,7 @@ V1.0.1
 开发人员
 ----
 
-本插件由本人 Jasin Yip 独立开发。
+本插件由本人 Jasin Yip 独立开发，您可以：[查看我的个人介绍](http://resume.jasinyip.com)
 
 
 
@@ -34,24 +34,26 @@ V1.0.1
 使用本插件时，需要引入 jQuery 。
 
 
-
-如何使用
+下载方法
 ----
+[navFixed-1.0.1.js](http://navfixed.jasinyip.com/navFixed-1.0.1.js)
 
-引入 navFixed.js 后，使用 $(*selector*).navFixed() 即可。
+[navFixed-1.0.1.min.js](http://navFixed.jasinyip.com/navFixed-1.0.1.min.js)
 
 
+安装指南
+----
+1. 在引入 jQuery 后，引入 navFixed.js 。
+2. 然后在 \$(function(){}) 里使用 $(selector).navFixed() 即可。
+	
+	<script src="navFixed.js"></script>
+	<script>
+	    $(function(){
+        	$(selector).navFixed();
+    	});					
+	</script>
 
-    <script src="navFixed.js"></script>
-
-    $(selector).navFixed();
-
-    
 
 演示地址
 ----
-
-[navFixed Demo][2]
-
-[1]: <http://jasinyip.com/resume>
-[2]: <http://jasinyip.com/demo/navFixed>
+[navFixed Demo](http://navFixed.jasinyip.com/)
