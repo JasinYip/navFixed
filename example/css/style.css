@@ -1,0 +1,68 @@
+/* public */
+section{width:100%; padding:100px 0; overflow:hidden;}
+h2 {font-size:46px; font-weight:normal;}
+.container{margin:0 auto; width:1140px; height:100%;z-index:0;}
+.title{width:300px; margin:0 auto; text-align:center;}
+
+/* firstPage */
+#firstPage{width:100%; padding:0; background-color:#81AEB4; text-align:center;}
+#firstPage>p {display:none; position:absolute; margin:0 auto; width:100%; color:#52314E; font-size:100px; font-family:"Consolas"; font-weight:900; font-style:italic}
+#fstPage-down{position:absolute; bottom:16px; height:18px; width:100%;}
+#fstPage-down a{display:block; height:18px; width:32px; margin:0 auto; background:url(../img/down.png) no-repeat center}
+
+/* nav */
+#nav {position:relative; padding:0; margin:0; top:0; height:52px; background-color:#42474b; color:white; }
+#nav a{padding:0 25px; font-size:14px; line-height:52px; cursor:pointer; z-index:1; color:white;}
+#nav a:hover{color:#999;}
+#logo{display:inline-block;}
+
+/* intro */
+#intro {height:400px; width:100%; background-color:#306364; color:#EEEEEE;}
+#intro>div:last-child  {text-align:center; margin-top:80px;}
+#intro>div:last-child>p{display:inline-block; margin-top:20px; padding:6px; border-radius:10px; background-color:#AEDBC6; color:#52314E; font-size:26px;}
+
+/* download */
+#download {height:400px; width:100%; background-color:#AEDBC6; color:#52314E;}
+#download ul {width:1140px; margin:60px auto 0; overflow:hidden;}
+#download li {display:block; float:left; margin-left:105px; width:240px;}
+#download li>a {display:block; height:40px; line-height:40px; text-align:center; background-color:#E36F5B;}
+#download li>a:hover {background-color:#F39C86;}
+#download .linkAboutMe       {color:#526095;}
+#download .linkAboutMe:hover {text-decoration:underline;}
+#download li p {margin-top:30px; font-size:20px; text-indent:1em;}
+
+/* setup */
+#setup {height:400px; width:100%; background-color:#306364; color:#EEEEEE;}
+#setup .setup-main {width:800px; margin:50px auto 0;}
+#setup .setup-main>p {display:inline-block; padding:6px; border-radius:10px; background-color:#AEDBC6; color:#52314E; font-size:20px;}
+#setup .setup-main pre {display:block; margin-top:20px; font-size:18px; font-family:"Consolas"; padding:6px; border-radius:10px; background-color:#AEDBC6; color:#52314E;  border:2px solid #52314E;}
+
+/* aboutMe */
+#aboutMe {height:400px; width:100%; background-color:#AEDBC6; color:#52314E;}
+#aboutMe .aboutMe-main {width:800px; margin:50px auto 0;}
+#aboutMe .linkResume {display:block; width:300px; height:50px; margin:60px auto 80px; background-color:#E36F5B; border-radius:10px; line-height:50px; text-align:center;}
+#aboutMe .linkResume:hover{background-color:#F39C86;}
+#aboutMe ul {margin-left:-8px;}
+#aboutMe li {display:inline-block;}
+#aboutMe li a {display:inherit; height:100px; width:100px; margin-left:80px; -webkit-transition:0.4s linear;transition:0.4s ease-in;}
+#aboutMe li a:hover {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+#aboutMe .blog {background:url(../img/blog.png) no-repeat center;}
+#aboutMe .github {background:url(../img/github.png) no-repeat center;}
+#aboutMe .linkedin {background:url(../img/linkedin.png) no-repeat center;}
+#aboutMe .email {background:url(../img/email.png) no-repeat center;}
+
+/* thanks */
+#thanks {width:100%; padding:0; background-color:#81AEB4; text-align:center;}
+#thanks>p {display:block; position:relative; margin:0 auto; width:100%; color:#52314E; font-size:100px; font-family:"Consolas"; font-weight:900; font-style:italic}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>navFixed.js</title>
+	
+	<link rel="stylesheet" href="css/reset.css">	
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="../jquery-1.11.1.min.js"></script>
+	<script src="../navFixed-1.0.1.js"></script>
+	<script src="js/main.js"></script>
+
+</head>
+<body>
+	<section id="firstPage">
+		<p>navFixed.js</p>
+		<div id="fstPage-down"><a href="#intro" hideFocus="true"></a></div>
+	</section>
+
+	<section id="nav">
+		<header class="container">
+			<a class="fl" href="#firstPage" id="logo" hideFocus="true">Jasin Yip</a>
+			<nav class="fr">
+				<a href="#intro" id="nav-intro" hideFocus="true">插件简介</a>
+				<a href="#download" id="nav-download" hideFocus="true">下载方法</a>
+				<a href="#setup" id="nav-setup" hideFocus="true">安装指南</a>
+				<a href="#aboutMe" id="nav-aboutMe" hideFocus="true">关于作者</a>
+				<a href="#thanks" id="nav-thanks" hideFocus="true">感谢使用</a>
+			</nav>
+		</header>
+	</section>
+
+	<section id="intro">
+		<div class="title">
+			<h2>插 件 简 介</h2>
+		</div>
+		<div>
+			<p> navFixed 是一款超轻量级的 jQuery 插件。</p><br>
+			<p>它可以让原本不是在顶部的导航条，</p><br>
+			<p>在滚动到它的位置时固定在顶部。</p><br>
+			<p>就像本页的导航条一样 ^_^</p>
+		</div>
+	</section>
+
+	<section id="download">
+		<div class="container">
+			<div class="title">
+				<h2>下 载 方 法</h2>
+			</div>
+			<ul>
+				<li>
+					<a href="../navFixed-1.0.1.js" target="_blank">下载 navFixed.js</a>
+					<p>这是未经压缩的版本，您可以愉快地阅读它的代码。欢迎与<a class="linkAboutMe" href="#aboutMe">作者</a>交流学习。</p>
+				</li>
+				<li>
+					<a href="../navFixed-1.0.1.min.js" target="_blank">下载 navFixed.min.js</a>
+					<p>这是经过压缩的版本，您可以在实际的生产环境中使用它，以节省数据流量。</p>
+				</li>
+				<li>
+					<a href="http://github.com/jasinyip/navFixed" target="_blank">Visit GitHub</a>
+					<p>navFixed 是一款开源的插件，您可以到 GitHub 上浏览它。</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="setup">
+		<div class="title">
+			<h2>安 装 指 南</h2>
+		</div>
+		<div class="setup-main">
+			<p>1. 在引入 jQuery 后，引入 navFixed.js 。<br>2. 然后在 $(function(){}) 里使用 $(selector).navFixed() 即可。</p>
+			<pre>
+&lt;script src="navFixed.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    $(function(){
+        $(selector).navFixed();
+    });					
+&lt;/script&gt;
+</pre>
+		</div>
+	</section>
+
+	<section id="aboutMe">
+		<div class="title">
+			<h2>关 于 作 者</h2>
+		</div>
+		<div class="aboutMe-main">
+			<p>本插件由 Jasin Yip 独立开发，您可以：</p>
+			<a class="linkResume" href="http://resume.jasinyip.com" target="_blank">查看他完整的个人介绍</a>
+			<ul>				
+				<li><a class="blog" href="http://jasinyip.com" target="_blank"></a></li>
+				<li><a class="github" href="http://github.com/jasinyip" target="_blank"></a></li>
+				<li><a class="linkedin" href="http://cn.linkedin.com/pub/俊星-叶/98/76b/a93/" target="_blank"></a></li>
+				<li><a class="email" href="mailto:&#x79;&#101;&#106;&#117;&#110;&#x78;&#x69;&#110;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;" target="_blank"></a></li>
+			</ul>
+		</div>
+	</section>
+
+
+	<section id="thanks">
+		<p>Hope you like navFixed!</p>
+	</section>
+</body>
+</html>
