@@ -1,6 +1,7 @@
 navFixed
 ========
 [navFixed 官方网站](http://navFixed.jasinyip.com/)
+
 这是一款超轻量级的 jQuery 插件。 它可以让原本不是在顶部的导航条，在滚动到它的位置时固定在顶部。
 
 
