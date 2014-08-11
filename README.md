@@ -42,7 +42,7 @@ V1.0.1
 安装指南
 ----
 1. 在引入 jQuery 后，引入 navFixed.js 。
-2. 然后在 \$(function(){}) 里使用 $(selector).navFixed() 即可。
+2. 然后在 $(function(){}) 里使用 $(selector).navFixed() 即可。
 	
 	<script src="navFixed.js"></script>
 	<script>
