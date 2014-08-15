@@ -5,7 +5,7 @@ h2 {font-size:46px; font-weight:normal;}
 .title{width:300px; margin:0 auto; text-align:center;}
 
 /* firstPage */
-#firstPage{width:100%; padding:0; background-color:#81AEB4; text-align:center;}
+#firstPage{height:2000px; width:100%; padding:0; background-color:#81AEB4; text-align:center;}
 #firstPage>p {display:none; position:absolute; margin:0 auto; width:100%; color:#52314E; font-size:100px; font-family:"Consolas"; font-weight:900; font-style:italic}
 #fstPage-down{position:absolute; bottom:16px; height:18px; width:100%;}
 #fstPage-down a{display:block; height:18px; width:32px; margin:0 auto; background:url(../img/down.png) no-repeat center}
