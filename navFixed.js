@@ -1,9 +1,14 @@
+/*       navFixed       */
+/*  author : Jasin Yip  */
+/*  version: 1.0.2      */
+
 $.fn.navFixed = function(){
-	$_this = $(this);
-	$_this_prev_marginBottom = parseInt($_this.prev().css("margin-bottom").substring(0, $_this.prev().css("margin-bottom").length-2));
-	$_this_next_marginTop = parseInt($_this.next().css("margin-top").substring(0, $_this.next().css("margin-top").length-2));
-	_topPosition = $(document).scrollTop();
-	_navPosition = $_this.prev().outerHeight(true);
+	var $_this = $(this),
+		$_this_prev_marginBottom = parseInt($_this.prev().css("margin-bottom").substring(0, $_this.prev().css("margin-bottom").length-2)),
+		$_this_next_marginTop = parseInt($_this.next().css("margin-top").substring(0, $_this.next().css("margin-top").length-2)),
+		_topPosition = $(document).scrollTop(),
+		_navPosition = $_this.prev().outerHeight(true);
+	
 	_if();
 
 	$(document).scroll( function() {

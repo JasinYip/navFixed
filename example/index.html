@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="css/reset.css">	
 	<link rel="stylesheet" href="css/style.css">
 	
-	<script src="../jquery-1.11.1.min.js"></script>
-	<script src="../navFixed-1.0.1.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/navFixed.min.js"></script>
 	<script src="js/main.js"></script>
 
 </head>
@@ -20,7 +20,7 @@
 
 	<section id="nav">
 		<header class="container">
-			<a class="fl" href="#firstPage" id="logo" hideFocus="true">Jasin Yip</a>
+			<a class="fl" href="#firstPage" id="logo" hideFocus="true">navFixed</a>
 			<nav class="fr">
 				<a href="#intro" id="nav-intro" hideFocus="true">插件简介</a>
 				<a href="#download" id="nav-download" hideFocus="true">下载方法</a>
@@ -50,11 +50,11 @@
 			</div>
 			<ul>
 				<li>
-					<a href="../navFixed-1.0.1.js" target="_blank">下载 navFixed.js</a>
+					<a href="../navFixed.js" target="_blank">下载 navFixed.js</a>
 					<p>这是未经压缩的版本，您可以愉快地阅读它的代码。欢迎与<a class="linkAboutMe" href="#aboutMe">作者</a>交流学习。</p>
 				</li>
 				<li>
-					<a href="../navFixed-1.0.1.min.js" target="_blank">下载 navFixed.min.js</a>
+					<a href="../navFixed.min.js" target="_blank">下载 navFixed.min.js</a>
 					<p>这是经过压缩的版本，您可以在实际的生产环境中使用它，以节省数据流量。</p>
 				</li>
 				<li>
@@ -72,7 +72,7 @@
 		<div class="setup-main">
 			<p>1. 在引入 jQuery 后，引入 navFixed.js 。<br>2. 然后在 $(function(){}) 里使用 $(selector).navFixed() 即可。</p>
 			<pre>
-&lt;script src="navFixed.js"&gt;&lt;/script&gt;
+&lt;script src="navFixed.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
     $(function(){
         $(selector).navFixed();
@@ -103,11 +103,12 @@
 		<p>Hope you like navFixed!</p>
 	</section>
 
-	<script type="text/javascript">
-	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe175838f452194f16a0ae961afbe2853' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-
+	<div style="display:none">
+		<script>
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe175838f452194f16a0ae961afbe2853' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+	</div>
 
 </body>
 </html>
